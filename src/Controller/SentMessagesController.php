@@ -20,7 +20,7 @@ class SentMessagesController extends AppController
      */
     public function index()
     {
-        $this->set('sentMessages', $this->paginate($this->SentMessages));//->find()->order(['ID' => 'desc'])));
+        $this->set('sentMessages', $this->paginate($this->SentMessages));
         $this->set('_serialize', ['sentMessages']);
     }
 
