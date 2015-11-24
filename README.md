@@ -11,3 +11,5 @@ CakePHP3 test application
 
 
 Really the only workable pages are 'Sent' and 'Send New Message'
+o
+Try [http://localhost:8765/sent-messages](http://localhost:8765/sent-messages) and [http://localhost:8765/sent-messages.json](http://localhost:8765/sent-messages.json)
